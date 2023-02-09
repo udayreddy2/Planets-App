@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.planetsSlider_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.responsive_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive_container {
+    padding: 80px;
+  }
+}
+
+.planetsSlider_heading {
+  text-align: center;
+  color: #05acff;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .planetsSlider_heading {
+    font-size: 48px;
+    margin-bottom: 64px;
+  }
+}
